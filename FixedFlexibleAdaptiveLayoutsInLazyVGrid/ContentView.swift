@@ -21,7 +21,7 @@ struct ContentView: View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: columns) {
-                    ForEach(1..<100) { _ in
+                    ForEach(0..<100) { _ in
                         Rectangle()
                             .fill(Color.red)
                             .aspectRatio(contentMode: .fit)
